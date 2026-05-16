@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#6200EE">
+
+    <!-- Shield Icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🛡"
+        android:textSize="72sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SafeJobs"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AI-Based Job Fraud Detection System"
+        android:textColor="#EDE7F6"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="14dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protecting users from fraudulent job postings."
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="42dp" />
+
+    <!-- Go To App Button -->
+    <Button
+        android:id="@+id/goToAppButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="GO TO APP"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00BFA5"
+        android:padding="14dp" />
+
+</LinearLayout>
